@@ -1,0 +1,49 @@
+.bg-JobItem {
+    background-color: #272727;
+    min-height: 100vh;
+    /* padding: 20px; */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  .jobItem-box {
+    background-color: #000;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sim-heading {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .similarJobs-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* width: 30%; */
+    flex-wrap: wrap;
+    gap: 20px;
+    /* grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .jobItem-box {
+      padding: 15px;
+    }
+  
+    .sim-heading {
+      font-size: 18px;
+    }
+  }
+  

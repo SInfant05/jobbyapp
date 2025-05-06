@@ -1,0 +1,81 @@
+.JobListItem {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.c-name-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem-company-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.listItem-rating-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.salary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.listItem-location-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 20px;
+}
+
+.listItem-location,
+.listItem-salary {
+  font-size: 14px;
+  color: #d1d5db;
+}
+
+.listItem-salary {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.listItem-hr {
+  border: 0;
+  height: 1px;
+  background-color: #444;
+  margin: 16px 0;
+}
+
+.listItem-Description {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.listItem-jobDescription {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #e5e7eb;
+}

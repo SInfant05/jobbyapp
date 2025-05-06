@@ -1,0 +1,85 @@
+/* Full-page dark background */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+}
+
+/* Main container to center content */
+.bg-login {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card-style login form container */
+.Lg-Form-container {
+  background-color: #272727;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+.login-logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+/* Login form itself */
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.form-label {
+  color: #e0e0e0;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+/* Input fields */
+.login-input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  outline: none;
+}
+
+/* Submit button */
+.login-btn {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #2563eb;
+}
+
+/* Error message */
+.error-message {
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-top: 12px;
+  text-align: left;
+}

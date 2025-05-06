@@ -1,0 +1,29 @@
+/* index.css */
+
+.bg-noJobsFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  /* background-color: ; */
+  padding: 20px;
+  text-align: center;
+}
+
+.noJobsFound-img {
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.noJobsFound-h1 {
+  font-size: 26px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.noJobsFound-p {
+  font-size: 16px;
+  color: white;
+}

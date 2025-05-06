@@ -1,0 +1,167 @@
+.jobs-page-container {
+    background-color: #000;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .input-filter {
+    color: #f8fafc;
+  }
+  
+  .filter-result {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .jobs-page-filter-container {
+    width: 30%;
+    /* background-color: #ffffff; */
+    /* padding: 20px; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
+    padding: 0px 30px;
+  }
+  
+  .jobs-page-result-container {
+    width: 70%;
+  }
+  
+  .jobs-page-hr1 {
+    margin: 16px 0;
+    border: none;
+    border-top: 1px solid #d7dfe9;
+  }
+  
+  .jobs-page-f1-heafing {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #f8fafc;
+    font-size: 16px;
+  }
+  
+  .jobs-page-filter-container label {
+    margin-left: 8px;
+    color: #f8fafc;
+    font-size: 14px;
+  }
+  
+  .jobs-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+  }
+  
+  .job-item {
+    display: flex;
+    gap: 16px;
+    background-color: #272727;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  }
+  
+  .company-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .job-item h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #0f172a;
+  }
+  
+  .job-item p {
+    margin: 4px 0;
+    color: #475569;
+    font-size: 14px;
+  }
+  
+  .no-jobs-view {
+    text-align: center;
+    padding: 50px 20px;
+    color: #64748b;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px; /* Adjust width as needed */
+  
+    padding: 8px;
+    background-color: transparent; /* Transparent background for the container */
+    border-style: solid;
+    border-width: 2px;
+    border-color: #566477;
+  }
+  
+  .search-box {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent; /* Transparent background for the input field */
+    color: white; /* Dark text color */
+    font-size: 16px;
+  }
+  
+  .search-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    /* font-size: 20px; */
+    color: #fff; /* White icon color */
+    background-color: #333; /* Dark background for the icon */
+    /* padding: 8px; Add padding to the icon */
+  }
+  
+  .clearFilter-btn {
+    background-color: #ff5c8d;
+    margin-top: 20px; /* Soft pink color */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding around the text */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition:
+      background-color 0.3s ease,
+      transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .clearFilter-btn:hover {
+    background-color: #ff3b64; /* Darker pink on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  .clearFilter-btn:focus {
+    outline: none; /* Remove outline when focused */
+    box-shadow: 0 0 0 2px #ff5c8d; /* Add a subtle pink glow on focus */
+  }
+  
+  .clearFilter-btn:active {
+    background-color: #ff2a4d; /* Darkest pink when button is clicked */
+    transform: scale(1); /* Reset scale to normal on active */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .filter-result {
+      flex-direction: column;
+    }
+  
+    .jobs-page-filter-container {
+      width: 100%;
+    }
+  }
+  
